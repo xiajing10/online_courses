@@ -1,56 +1,89 @@
 header {
-    background: #a9a9a9;
-  }
-  
-  body {
-    margin: 50px 25px 50px;
-    display: block;
-  }
-  
-  h1 {
-    font-family: times, "times new roman", serif;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 300%;
-  }
-  
-  nav {
-    font-variant: normal;
-    font-family: times, "Times New Roman", sans-serif;
-    font-size: 180%;
-  }
-  
-  ul {
-    font-variant: normal;
-    font-family: times, "Times New Roman", sans-serif;
-    font-size: 150%;
-  }
-  
-  section {
-    font-family: times, "Times New Roman", sans-serif;
-    background: grey;
-    text-align: left;
-    font-size: 185%;
-  }
-  
-  p {
-    margin-right: 20px;
-  }
-  
-  a {
-    background-color: #c0c0c0;
-    color: black;
-  }
-  
-  aside {
-    display: none;
-  }
-  
-  h2 {
-    color: #00008b;
-    font-family: times, "Times New Roman", sans-serif;
-    font-size: 160%;
-    text-transform: uppercase;
-  }
-  
+  background: #a9a9a9
+    url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg")
+    no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+body {
+  margin: 50px 25px 50px;
+  padding: 25px, 10px;
+  display: block;
+}
+
+h1 {
+  font-family: times, "times new roman", serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+  padding: 2% 1% 0%;
+}
+
+nav {
+  font-variant: normal;
+  font-family: times, "Times New Roman", sans-serif;
+  font-size: 150%;
+}
+
+nav a {
+  display: inline-block;
+  color: black;
+  background-color: rgba(250, 250, 250, 0.2);
+  width: 15%;
+  border-radius: 10px;
+  margin: 2% 2.5%;
+  padding: 1.5%;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgba(250, 250, 250, 1);
+  color: #00008b;
+}
+
+aside {
+  display: inline-block;
+}
+
+.left {
+  width: 25%;
+  background-color: rgb(0, 128, 0);
+  margin-right: 2%;
+  display: inline-block;
+  float: center;
+  text-align: center;
+}
+
+.right {
+  width: 70%;
+  display: inline-block;
+  float: right;
+}
+
+ul {
+  font-variant: normal;
+  font-family: times, "Times New Roman", sans-serif;
+  font-size: 150%;
+}
+
+section {
+  font-family: times, "Times New Roman", sans-serif;
+  text-align: left;
+  font-size: 180%;
+}
+
+h2 {
+  color: #00008b;
+  font-family: times, "Times New Roman", sans-serif;
+  font-size: 160%;
+  text-transform: uppercase;
+}
+
+img {
+  width: 70%;
+  margin: 8%;
+  border: solid 3px rgb(0, 0, 0);
+}

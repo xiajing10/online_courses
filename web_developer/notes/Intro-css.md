@@ -2,6 +2,7 @@
 Code: 
 - [CodePen repo week1](https://codepen.io/collection/noEQed/)
 - [CodePen repo week2](http://codepen.io/collection/DVYVpB/)
+- [CodePen repo week3](http://codepen.io/collection/XGowWM/)
   
 Reading: [Building Your First Web Page](https://learn.shayhowe.com/html-css/building-your-first-web-page/)
 # Week 1 
@@ -170,3 +171,66 @@ QUIZ:
 - When a page is broken down into a DOM, the class information is stored in the tree.
 
 ## Browser Capabilities
+
+Default style sheet (earlier than your style sheet)
+
+[caniuse.com](http://caniuse.com)
+
+add browser prefixes
+- border-radius
+- column-count
+
+
+Setting background image
+- [Setting Backgrounds & Gradients](http://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/)
+- [Opacity](https://css-tricks.com/almanac/properties/o/opacity/)
+
+
+# Week 3
+## Pseudo-Classes
+- link: `:link`, `:visited`
+- user action: `:hover`
+- forms(interfaces): `:enabled`, `:checked`
+- structural/positional
+- textual
+- etc.
+
+## Transitions
+transition-property
+transition-duration
+transition-timing
+
+Steps:
+- define element
+- transition
+- pseudo class
+
+using shortcuts (in one line)
+
+## Transforms (status changes)
+2D: translate, rotate, scale, skew, matrix
+
+transform:scale(width, height)
+transform:skew(x-angle,y-angle)
+
+3D rotate
+transform:rotate3D(x,y,z)
+
+[OPTIONAL READINGS - Transitions, Transforms, and Animation](https://www.coursera.org/learn/introcss/supplement/kyViF/optional-readings-transitions-transforms-and-animation)
+
+## Positioning
+- static (default)
+- relative
+- absolute
+- fixed 
+
+
+QUIZ:  
+Question 6
+The style tag and the style attribute are interchangeable -- this means that you accomplish the same effect with both.   
+**FALSE**
+
+Q: Sometimes elements overlap one another. Which property specifies the stacking order of the elements? (A high value means it is more likely to be place in front of another.)  
+A: z-index property
+
+Static is not an option of 'position' property (but default choice).
